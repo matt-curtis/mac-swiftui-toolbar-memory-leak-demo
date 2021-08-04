@@ -46,3 +46,5 @@ that `onAppear()` will be printed every single time `counter` changes. The same 
 ## Closing
 
 Both of these issues are demonstrated in the sample project in this repo.
+
+I've filed this bug under [FB9453009](https://openradar.appspot.com/radar?id=5011018224762880).
