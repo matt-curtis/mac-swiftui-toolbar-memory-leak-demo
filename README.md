@@ -1,6 +1,6 @@
 # Mac SwiftUI Toolbar Memory Leak Demo
 
-On macOS, SwiftUI's APIs for adding toolbar items to a window have (at least) two bugs around view recreation that lead to memory leaks and increased CPU pressure over time.
+On Big Sur (macOS 11), SwiftUI's APIs for adding toolbar items to a window have (at least) two bugs around view recreation that lead to memory leaks and increased CPU pressure over time. Monterey (macOS 12) appears to not have these bugs.
 
 ## Issue #1: `ToolbarItem` always creates an additional, "ghost" copy of the view it contains
 
